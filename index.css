@@ -225,8 +225,7 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(0, 189, 173);
-    background:#fff;
+    background:#ffffffab;
     padding:8px 60px;
 }
 .btn_two {
@@ -243,6 +242,7 @@ body {
 }
 .btn_two:hover {
     cursor:pointer;
+    background:#ffffffab;
     padding:8px 60px;
 }
 
@@ -260,6 +260,7 @@ body {
 }
 .btn_three:hover {
     cursor:pointer;
+    background:#ffffffab;
     padding:8px 60px;
 }
 
