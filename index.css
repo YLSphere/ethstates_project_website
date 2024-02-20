@@ -227,6 +227,7 @@ body {
     cursor:pointer;
     color:rgb(0, 189, 173);
     background:#fff;
+    padding:8px 60px;
 }
 .btn_two {
     font-size:18px;
