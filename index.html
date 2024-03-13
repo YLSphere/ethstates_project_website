@@ -26,22 +26,23 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">overview</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">workflow</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">methodology</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>ETHStates</h1>
         <h2>DSC 180B Group 16</h2>
         <h3>Eddie Ho, Viraj Lohia, Ho Kiu Lee, Yin Lam Lai</h3>
         <div id="menu">
-            <a onclick="showabout()">Overview</a>
-            <a onclick="showwork()">Methodology</a>
+            <a onclick="showabout()">overview</a>
+            <a onclick="showwork()">methodology</a>
         </div>
         <div class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/YLSphere/DSC180_ethstates" class="social"><i class="fab fa-github"></i></a></div>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>Methodology</h1>
+        <h1>methodology.</h1>
         <section>
-            <h2>Introduction</h2>
+            <h2>introduction.</h2>
             <p>
                 The development of Blockchain technology and the emergence of smart contracts has decreased the need for intermediaries to host transactions, transforming many different industries into exploring decentralized, end-to-end transactions. One of the industries currently underdeveloped in the context of decentralization is the real estate industry, where all negotiations and transactions between both buying and selling parties have to go through a real estate broker to verify and escrow on behalf of both parties.
             </p>
@@ -54,46 +55,63 @@
         </section>
         <button class="btn_one">Methods</button>
         <button class="btn_three">Conclusion</button>
-        <p class="hidden" id="methodologyText">1. The seller fills in the necessary data in regards to the property he/she wants to sell and deploys the smart contract via our marketplace with the necessary cost (TEST MATIC token) to it. The smart contract will generate a non-fungible token (NFT) as proof of ownership of the property and be granted to the seller’s MetaMask wallet. The property is listed and can be viewed on the listings page. 
-            2. Potential buyers can put in offers(bids) to a listed property, in which the seller has the right to accept or reject the offer. Buyer must have enough funds in their MetaMask wallet before the bid can be made. 
-            3. When a buyer is found, both buyer and seller will enter an agreement via the deployment of another smart contract. The non-fungible token from the seller will be transferred to the buyer’s MetaMask wallet, at the same time the seller will receive the offer agreed to the seller’s MetaMask wallet. 
-            4. If financing is required, the buyer and financier will enter an agreement via another deployment of smart contract, in which the buyer transfers the agreed amount of payment periodically to the financier, and in return a duplicate burnable NFT is issued to the buyer.
-            5. When all payments are completed by the buyer, the duplicate NFT will be burned and the original copy of the NFT will be transferred from the financier’s MetaMask wallet to the buyer’s wallet. 
-            </p>
+        <ol class="hidden" id="methodologyText" style="font-size:21px">
+            <li>The seller fills in the necessary data in regards to the property he/she wants to sell and deploys the smart contract via our marketplace with the necessary cost (TEST MATIC token) to it. The smart contract will generate a non-fungible token (NFT) as proof of ownership of the property and be granted to the seller’s MetaMask wallet. The property is listed and can be viewed on the listings page.</li>
+            <li>Potential buyers can put in offers(bids) to a listed property, in which the seller has the right to accept or reject the offer. Buyer must have enough funds in their MetaMask wallet before the bid can be made.</li>
+            <li>When a buyer is found, both buyer and seller will enter an agreement via the deployment of another smart contract. The non-fungible token from the seller will be transferred to the buyer’s MetaMask wallet, at the same time the seller will receive the offer agreed to the seller’s MetaMask wallet.</li>
+            <li>If financing is required, the buyer and financier will enter an agreement via another deployment of smart contract, in which the buyer transfers the agreed amount of payment periodically to the financier, and in return a duplicate burnable NFT is issued to the buyer.</li>
+            <li>When all payments are completed by the buyer, the duplicate NFT will be burned and the original copy of the NFT will be transferred from the financier’s MetaMask wallet to the buyer’s wallet.</li>
+        </ol>
+
         <p class="hidden" id="conclusionText">Our final product, EthStates, is a decentralized peer-to-peer marketplace for real estate property leveraging the technology of blockchain and smart contracts to increase a real estate transaction's security, cost-efficiency, and time efficiency, allowing for a trustless relationship for buyers and sellers. The user-friendly front-end navigation of the website, combined with back-end smart contract mechanisms results in a top-down, simple, and direct process for homeowners and buyers to process real estate transactions safely and securely without the need for a broker to handle lengthy negotiations and demanding fees, overall providing a blueprint of the real estate industry under the governance of decentralization. However, it is believed that blockchain and the concept of decentralization have untapped potential, as the idea that we can exclude the need for a third-party representation in not only real estate but potentially in other industries that currently require mediators such as banking, insurance, healthcare, education, supply chain, and more. Ultimately, blockchain has laid the foundation for a utopian information system, where concerns about privacy and centralization are eliminated while putting more responsibility and decision-making in oneself.</p>
     </div>
     <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>Overview</h1>
-            <section>
-                <h2>Project Vision</h2>
-                <p>
-                    Envisioning a world where transactions are truly democratized, our project, EthStates, aims to establish an online decentralized marketplace for residential properties. Powered by blockchain technology, Ethstates will empower homeowners and potential buyers to engage in secure, transparent, and fair transactions without the need for intermediaries. Our platform focuses on privacy, inclusivity, and innovation, allowing users to buy and sell properties in a trustless environment. By harnessing the power of smart contracts, Ethstates will redefine the dynamics of a real estate transaction, and continue to encourage community-driven governance, making it accessible, equitable, and resilient for all. 
-                </p>
-            </section>
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>overview.</h1>
+        <section>
+            <h2>project vision</h2>
+            <p>
+                Envisioning a world where transactions are truly democratized, our project, EthStates, aims to establish an online decentralized marketplace for residential properties. Powered by blockchain technology, Ethstates will empower homeowners and potential buyers to engage in secure, transparent, and fair transactions without the need for intermediaries. Our platform focuses on privacy, inclusivity, and innovation, allowing users to buy and sell properties in a trustless environment. By harnessing the power of smart contracts, Ethstates will redefine the dynamics of a real estate transaction, and continue to encourage community-driven governance, making it accessible, equitable, and resilient for all. 
+            </p>
+        </section>
 
-            <section>
-                <h2>Architechture Overview</h2>
-                <p>
-                    <u>Mumbai Test Network</u>: The Mumbai Test Network is the test network where we deploy and run our smart contracts for our prototype. It is the Polygon network's testnet, a replication of the main Polygon network used by developers to test, launch, and run decentralized applications. The Mumbai Test Network uses the test currency TEST MATIC, which we currently use for developing and testing our smart contracts. 
-                </p>
-                <p>
-                    <u>MetaMask Wallet</u>: All users (buyer, seller, financier) must use MetaMask wallet as a form of verification to utilize any features in the marketplace since the TEST MATIC currency and unique ID are contained in the wallet.
-                </p>
-                <p>
-                    <u>Javascript</u>: Javascript is the programming language we use to program and connect our smart contracts to our front-end interface. 
-                </p>
-                <p>
-                    <u>Pinata</u>: Pinata is a development platform we use that helps us in hosting, managing, and sharing files on the blockchain platforms. It is an IPFS pinning platform that EthStates employs to host all data. 
-                </p>
-                <p>
-                    <u>Firebase</u> Firebase is another development platform we use to store our sample property data for verification when sellers list their properties for sale. 
-                </p>
-            </section>
+        <section>
+            <h2>architechture overview</h2>
+            <p>
+                <u>Mumbai Test Network</u>: The Mumbai Test Network is the test network where we deploy and run our smart contracts for our prototype. It is the Polygon network's testnet, a replication of the main Polygon network used by developers to test, launch, and run decentralized applications. The Mumbai Test Network uses the test currency TEST MATIC, which we currently use for developing and testing our smart contracts. 
+            </p>
+            <p>
+                <u>MetaMask Wallet</u>: All users (buyer, seller, financier) must use MetaMask wallet as a form of verification to utilize any features in the marketplace since the TEST MATIC currency and unique ID are contained in the wallet.
+            </p>
+            <p>
+                <u>Javascript</u>: Javascript is the programming language we use to program and connect our smart contracts to our front-end interface. 
+            </p>
+            <p>
+                <u>Pinata</u>: Pinata is a development platform we use that helps us in hosting, managing, and sharing files on the blockchain platforms. It is an IPFS pinning platform that EthStates employs to host all data. 
+            </p>
+            <p>
+                <u>Firebase</u> Firebase is another development platform we use to store our sample property data for verification when sellers list their properties for sale. 
+            </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>workflow.</h1>
+        <div class = 'center'>
+            <h2>Contract Execution Logic for EthStates Marketplace</h2>
+            <img src = "./images/Marketplace_Flow_1.png" style = "width: 100%;">
+            <br><br>
+            <br><br>
+            <br><br>
+            <h2>Contract Execution Logic for Financing</h2>
+            <img src = "./images/Financing_Flow.png" style = "width: 100%;">
         </div>
-        <div id="footer">
-            Real Estate for Real People <br> <a href="https://dapper-malasada-9683a3.netlify.app/">ethstates</a>
-        </div>
+    </div>
+        
+    <div id="footer">
+        real estate for real people <br> <a href="https://dapper-malasada-9683a3.netlify.app/">ethstates</a>
+    </div>
+
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>

@@ -83,6 +83,7 @@ body {
     font-size:70px;
     text-decoration:underline;
 }
+
 #about {
     width:10vw;
     height:10vw;
@@ -189,6 +190,13 @@ body {
 }
 .container section {
     margin:8vh 0px;
+}
+
+.center {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #used div{
     font-size:14px !important;
